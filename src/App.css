@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+@media (max-width: 480px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        background-color: #142d4c;
+        justify-content: center;
+        width: 442px;
+        height: fit-content;
+        
+    }
+    .skills_main{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        
+        
+    }
+    .about_image{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .about1{
+       width: fit-content;
+       background-color: #142d4c;   
+    }
+    .about-self{
+        width: 350px;
+    }
+
+    .landing_page{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        
+    }
+    .landing_image{
+        width: 350px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .items{
+        display: none;
+    }
+    .navbar{
+        margin-bottom: -20px;
+        padding-top: 8px;
+    }
+    .name{
+        font-size: medium;
+    }
+    .app{
+        overflow-x: hidden;
+    }
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
